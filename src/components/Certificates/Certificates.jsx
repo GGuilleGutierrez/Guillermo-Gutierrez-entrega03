@@ -22,7 +22,7 @@ const Certificates = () => {
     <>
     <section id="certificate">
         <p id="title">Certificados</p>
-        <img src="../../assets/cert_desk.png" alt="certificate"/><br/>
+        <img src="/cert_desk.png" alt="certificate"/><br/>
         <span style={{fontSize: "16px", fontWeight: "500"}}>Front-end Developer</span>
         <p style={{fontSize: "14px", fontWeight: "500", color: "#828282"}}>Feb 2022 - Actualidad</p>
     </section>
