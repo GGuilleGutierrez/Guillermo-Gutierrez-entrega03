@@ -6,7 +6,7 @@ const ExperienceMob = () => {
         <p>Experiencia</p>
         <div className="adidas">
             <div className="date">
-                <img src="../../assets/adidas.png" alt="adidas" />
+                <img src="/Guillermo-Gutierrez-entrega03/adidas.png" alt="adidas" />
                 <p style={{fontSize: "14px", fontWeight: "500", color: "#828282"}}>Feb 2022 - Actualidad</p>
                 <span style={{fontSize: "16px", fontWeight: "500"}}>Front-end Developer</span>
             </div>
