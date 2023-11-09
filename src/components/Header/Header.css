@@ -1,0 +1,63 @@
+.container {
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    min-width: 90%;
+}
+
+.img {
+    background-image: url("../../assets/photo-portfolio.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 350px;
+    height: 340px;
+}
+
+.personal-info {
+    padding: 16px;
+}
+
+.name {
+    height: 50px;
+}
+
+.name h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.name p {
+    color: #828282;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.contact span {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.aboutme {
+    color: #828282;
+    font-size: 18px;
+}

@@ -1,0 +1,42 @@
+#experience-mobile {
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    min-width: 20px;
+}
+
+#experience-mobile p {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.adidas {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+    min-width: 50%;
+    min-height: 250px;
+}
+
+.adidas div {
+    width: 50%;
+}
+
+.adidas .date,
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (width > 750px) {
+    #experience-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+#experience-desktop {
+    display: none;
+}
+
+@media (width > 750px) {
+    .date {
+        margin-left: 20px;
+    }
+
+    #experience-desktop {
+        background-color: #FFF;
+        padding: 16px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+        min-width: 20px;
+    }
+    
+    #experience-desktop p {
+        color: #4F4F4F;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .adidas-desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #C4C4C4;
+        border-radius: 12px;
+        min-width: 50%;
+        min-height: 260px;
+        margin-bottom: 24px;
+    }
+    
+    .date {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

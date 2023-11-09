@@ -1,0 +1,67 @@
+#skills {
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    min-width: 20px;
+}
+
+#skills>p {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.techs {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.skills>div {
+    color: #828282;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.skills div {
+    display: flex;
+    align-items: center;
+}
+
+#progress {
+    background-color: #C4C4C4;
+    width: 250px;
+    height: 10px;
+    margin-left: 28px;
+}
+
+#html-js-progress {
+    background-color: #2F80ED;
+    width: 210px;
+    height: 10px;
+}
+
+#css-react-progress {
+    background-color: #2F80ED;
+    width: 170px;
+    height: 10px;
+}
+
+@media (width > 750px) {
+    #skills {
+        margin-left: 20px;
+        min-width: max-content;
+    }
+    
+    .skills {
+        flex-direction: row;
+    }
+}

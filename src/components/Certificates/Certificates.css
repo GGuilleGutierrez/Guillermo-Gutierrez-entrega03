@@ -1,0 +1,44 @@
+#certificate {
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    min-width: 20px;
+}
+
+#certificate #title,
+#certificate-desktop #title {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+#certificate-desktop {
+    display: none;
+}
+
+@media (width > 750px) {
+    #certificate {
+        display: none;
+    }
+    
+    #certificate-desktop {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        padding: 16px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        width: 245%;
+        height: 90%;
+        margin-top: 5px;
+    }
+    
+    .certificates {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

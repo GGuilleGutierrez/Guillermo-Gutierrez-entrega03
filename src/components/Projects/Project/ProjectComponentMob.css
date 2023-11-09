@@ -1,0 +1,43 @@
+#tags-mobile {
+    padding-top: 30px;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.description #title-proj-mobile {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.description #text-proj-mobile {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.develop-option1 {
+    padding: 12px 40px;
+    background-color: #2F80ED;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.develop-option2 {
+    padding: 12px 40px;
+    border: 1px solid #2F80ED;
+    background-color: white;
+    color: #2F80ED;
+    border-radius: 12px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
